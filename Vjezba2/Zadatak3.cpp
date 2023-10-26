@@ -16,7 +16,11 @@ void Vector::vector_push_back(int n)
 		capacity = capacity * 2;
 		int* duplo = new int[capacity]; //novo alociranje niza integera koje je velicine capacity
 
-		copy(niz, niz + size, duplo); //kopira sve elemente niza u duplo
+		for (int i = 0; i < niz.size; i++)
+		{
+			duplo[i] =  niz[i];
+		}   
+		                         // 123 moram kopirat u drugi niz bez copy funkcije (pitanje na obrani)
 		delete[] niz;
 		niz = duplo;
 	}
