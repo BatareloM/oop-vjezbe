@@ -23,7 +23,7 @@ int main()
 		std::string unos;
 		std::cout << "Unesite string:" << i + 1;
 		std::getline(std::cin, unos);
-		stringovi.push_back_back(unos);
+		stringovi.push_back(unos);
 	}
 
 	for (std::string& string : stringovi) //foreach petlja
