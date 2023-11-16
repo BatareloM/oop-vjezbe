@@ -16,7 +16,7 @@ bool samoglasnik(char znak)
 
 std::string pretvorba(std::string& rijec)
 {
-	if (samoglasnik(rijec[0])) // prvi znak u stringu rijec je li samoglasnik
+	if (samoglasnik(rijec[0])) 
 	{
 		return rijec + "hay";
 	}
