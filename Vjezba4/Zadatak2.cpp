@@ -3,7 +3,7 @@
 
 int interpunkcijskiZn(char znak)
 {
-	return (znak == '.' || znak == ',' || znak == '?' || znak == '!';
+	return (znak == '.' || znak == ',' || znak == '?' || znak == '!');
 }
 
 int funk(int std::string& recenica)
