@@ -76,20 +76,20 @@ void Igrac::akuzanje()
 			{
 				broj_bodova += 1;
 			}
-			for (int i = 0; i < kombinacija_karata.size(); i++)
+		for (int i = 0; i < kombinacija_karata.size(); i++)
 			{
-				int broj_trenutne_karte = kombinacija_karata[i].getBroj();
-				char* trenutni_zog = kombinacija_karata[i].getZog();
-				if (broj_trenutne_karte == 1) {
-					BrojAseva++;
-				}
-				else if (broj_trenutne_karte == 2) {
-					BrojDvica++;
-				}
-				else if (broj_trenutne_karte == 3)
-				{
-					BrojTrica++;
-				}
+			int broj_trenutne_karte = kombinacija_karata[i].getBroj();
+			char* trenutni_zog = kombinacija_karata[i].getZog();
+			if (broj_trenutne_karte == 1) {
+				BrojAseva++;
+			}
+			else if (broj_trenutne_karte == 2) {
+				BrojDvica++;
+			}
+			else if (broj_trenutne_karte == 3)
+			{
+				BrojTrica++;
+			}
 
 			}
 			if (BrojAseva == 3)
