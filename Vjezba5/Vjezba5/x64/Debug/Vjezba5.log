@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(30,4): error C2065: 'spilKarata': undeclared identifier
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(35,16): error C2065: 'spilKarata': undeclared identifier
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(40,38): error C2248: 'Igrac::ime': cannot access private member declared in class 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(24,9): message : see declaration of 'Igrac::ime'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(21,7): message : see declaration of 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(41,32): error C2248: 'Igrac::kombinacija_karata': cannot access private member declared in class 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(25,15): message : see declaration of 'Igrac::kombinacija_karata'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(21,7): message : see declaration of 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(42,21): error C2248: 'Igrac::kombinacija_karata': cannot access private member declared in class 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(25,15): message : see declaration of 'Igrac::kombinacija_karata'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(21,7): message : see declaration of 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\main.cpp(42,73): error C2248: 'Igrac::kombinacija_karata': cannot access private member declared in class 'Igrac'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(25,15): message : see declaration of 'Igrac::kombinacija_karata'
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(21,7): message : see declaration of 'Igrac'
+  Vjezba5.cpp
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Vjezba5.cpp(143,2): error C2512: 'Karta': no appropriate default constructor available
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba5\Vjezba5\Tresetaklase.hpp(7,7): message : see declaration of 'Karta'
+  Generating Code...
