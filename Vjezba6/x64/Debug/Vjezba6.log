@@ -1,0 +1,6 @@
+﻿  Owner.cpp
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba6\Vjezba6\Owner.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba6\Vjezba6\Owner.cpp(35,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+  Generating Code...
+  Vjezba6.vcxproj -> C:\Users\mmln0\OneDrive\Desktop\objektno\Vjezba6\x64\Debug\Vjezba6.exe
