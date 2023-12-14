@@ -1,16 +1,16 @@
 #include <iostream>
 #include "Virtualpet.hpp"
-
+using namespace std;
 int main() {
     
     VirtualPet ljubimac;
     VirtualPet ljubimac2;
 
     if (ljubimac == ljubimac2) {
-        std::cout << "Ljubimci su jednaki" << std::endl;
+        cout << "Ljubimci su jednaki";
     }
     else {
-        std::cout << "Ljubimci nisu jednaki." << std::endl;
+        cout << "Ljubimci nisu jednaki";
     }
 
     
