@@ -28,7 +28,7 @@ int main() {
 
     // Pronalazak naj sretnijeg vlasnika
     int indeksNajSretnijeg = vlasnici[0].dodavanjeNajsretnijeg(vlasnici);
-    cout << "Naj sretniji vlasnik je na indeksu: " << indeksNajSretnijeg << endl;
+    cout << "Naj sretniji vlasnik je na indeksu: " << indeksNajSretnijeg;
 
     return 0;
 }
