@@ -6,7 +6,7 @@
 
 using namespace std;
 
-bool operator==(VirtualPet& other)
+bool operator==(VirtualPet& other) const
 {
 	return (ime = other.ime && vrsta = other.vrsta && bodovi_za_glad = other.bodovi_za_glad && bodovi_za_srecu = other.bodovi_za_srecu && status_budnosti = other.status_budnosti);
 
