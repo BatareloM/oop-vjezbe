@@ -17,9 +17,9 @@ int main() {
     cin >> brojAkcija;
 
     vector<Owner> vlasnici;
-    for (int i = 0; i < brojVlasnika; ++i) {
+    for (int i = 0; i < brojVlasnika; i++) {
         Owner vlasnik;
-        for (int j = 0; j < brojLjubimaca; ++j) { // Dodaj ljubimce svakom vlasniku, ovisi o implementaciji
+        for (int j = 0; j < brojLjubimaca; j++) { // Dodaj ljubimce svakom vlasniku, ovisi o implementaciji
             VirtualPet ljubimac;
             vlasnik.dodavanjeLjub(ljubimac);
         }
