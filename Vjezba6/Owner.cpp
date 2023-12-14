@@ -65,7 +65,7 @@ int Owner::dodavanjeNajsretnijeg(vector <Owner> vlasnici)
 	double najSretnijiodS = -1; // Pretpostavimo da ocjena ne može biti negativna
 
 	for (int i = 0; i < vlasnici.size(); ++i) {
-		double sreca = static_cast<double>(vlasnici[i].brojAkcija) / vlasnici[i].brojLjubimaca;
+		int sreca = vlasnici[i].brojAkcija / vlasnici[i].brojLjubimaca;
 
 		if (sreca > najSretnijiodS) {
 			najSretnijiodS = sreca;
