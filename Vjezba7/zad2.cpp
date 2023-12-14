@@ -12,12 +12,12 @@ bool operator==(VirtualPet& other) const
 
 }
 
-bool operator!=(VirtualPet& other)
+bool operator!=(VirtualPet& other) const
 {
 	return !(*this == other);
 }
 
-VirtualPet& operator=(VirtualPet& other)
+VirtualPet& operator=(VirtualPet& other) const
 {
 	if (this != &other)
 	{
@@ -29,7 +29,7 @@ VirtualPet& operator=(VirtualPet& other)
 	}
 	return *this;
 }
-VirtualPet& operator++()
+VirtualPet& operator++() const
 {
 	return *this;
 }
