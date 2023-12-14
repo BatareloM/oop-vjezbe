@@ -60,15 +60,15 @@ void Owner::nivoiSrece(int sreca)
 
 int Owner::dodavanjeNajsretnijeg(vector <Owner> vlasnici)
 {
-	Owner najSretni;
+	Owner najSretniji;
 	int indeks = -1;
-	double najSreOcjena = -1; // Pretpostavimo da ocjena ne može biti negativna
+	double najSretnijiodS = -1; // Pretpostavimo da ocjena ne može biti negativna
 
 	for (int i = 0; i < vlasnici.size(); ++i) {
-		double ocjena = static_cast<double>(vlasnici[i].brojAkcija) / vlasnici[i].brojLjubimaca;
+		double sreca = static_cast<double>(vlasnici[i].brojAkcija) / vlasnici[i].brojLjubimaca;
 
-		if (ocjena > najSreOcjena) {
-			najSreOcjena = ocjena;
+		if (sreca > najSretnijiodS) {
+			najSretnijiodS = sreca;
 			indeks = i;
 		}
 	}
