@@ -10,11 +10,12 @@ void sortiraj(T niz[], T n)
 }
 
 template<> //specijalizacija za konkretni tip se zapisuje u obliku
-void sortiraj<char>(char niz[], int n)
+bool sortiraj<char>(char niz[], int n)
 {
 	sort(niz, niz + n, [](char a, char b))
 	{
-		return tolower(a) < tolower(b);
+		return tolower(a) < tolower(b); // bool operator() (const student& s1, const student& s2){return s1.ocjena < s2.ocjena;
+
 	}
 }
 
