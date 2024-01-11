@@ -14,6 +14,6 @@ int main()
 {
 	int rezultat = mmin(5, 2);
 
-	cout << "Minimum je:" << rezultat;
+	cout << "Manji je je:" << rezultat;
 	return 0;
 }
